@@ -1,6 +1,7 @@
 @if ($use-buttons) {
     .c-button {
       padding: $spacing-unit;      
+      color: $color-text;
       background-color: $color-btn;      
       text-transform: capitalize;
       border-radius: 5px;
