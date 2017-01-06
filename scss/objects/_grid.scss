@@ -6,6 +6,15 @@
 .o-grid > .o-grid__col {
   display: inline-block;
   font-size: $spacing-unit;
+  vertical-align: top;
+}
+
+.o-grid--middle > .o-grid__col {
+    vertical-align: middle;
+}
+
+.o-grid--bottom > .o-grid__col {
+    vertical-align: bottom;
 }
 
 .o-grid > .o-grid__col > * {
@@ -29,4 +38,8 @@
 .o-grid--equal-height,
 .o-grid--equal-height > .o-grid__col {
   display: flex;
+}
+
+.o-grid--equal-height > .o-grid__col {
+    flex-direction: column;
 }
