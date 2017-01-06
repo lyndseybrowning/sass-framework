@@ -1,0 +1,23 @@
+﻿$border-width: 1px;
+$separator-color: $color-text;
+
+.o-flex-list {
+    overflow: hidden;  
+}
+
+.o-flex-list ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.o-flex-list li {
+    border-left: $border-width solid $separator-color;
+    padding-left: $spacing-unit;
+    padding-right: $spacing-unit;
+}
+
+.o-flex-list--push-top li {
+    margin-top: $spacing-unit;
+}
