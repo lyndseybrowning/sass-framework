@@ -416,6 +416,37 @@ ol {
 .o-grid--equal-height > .o-grid__col {
   display: flex; }
 
+.c-alert {
+  padding: 1rem;
+  border-radius: 5px;
+  border-style: solid;
+  border-size: 1px; }
+  .c-alert--ok {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #212121; }
+  .c-alert--info {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1; }
+  .c-alert--warning {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1; }
+
+.c-button {
+  padding: 1rem;
+  background-color: #212121;
+  text-transform: capitalize;
+  border-radius: 5px;
+  font-weight: bold; }
+  .c-button:hover {
+    background-color: black; }
+  .c-button--sm {
+    padding: 0.5rem; }
+  .c-button--lg {
+    padding: 2rem; }
+
 .u-1\/1 {
   width: 100%; }
 
