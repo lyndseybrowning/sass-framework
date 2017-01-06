@@ -436,12 +436,13 @@ ol {
 
 .c-button {
   padding: 1rem;
-  background-color: #212121;
+  color: #212121;
+  background-color: #FFC77F;
   text-transform: capitalize;
   border-radius: 5px;
   font-weight: bold; }
   .c-button:hover {
-    background-color: black; }
+    background-color: #ffa633; }
   .c-button--sm {
     padding: 0.5rem; }
   .c-button--lg {
