@@ -1,4 +1,4 @@
-﻿@mixin sizing() {
+﻿@mixin padding-mods() {
     @each $modifier, $value in $base-spacing {
         &--#{$modifier} {
             padding: $value;
