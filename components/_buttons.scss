@@ -1,0 +1,15 @@
+@if ($use-buttons) {
+    .c-button {
+      padding: $spacing-unit;      
+      background-color: $color-btn;      
+      text-transform: capitalize;
+      border-radius: 5px;
+      font-weight: bold;
+
+      &:hover {
+        background-color: $color-btn-hover;
+      }      
+
+      @include sizing();
+    }
+}

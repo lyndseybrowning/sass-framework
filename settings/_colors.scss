@@ -1,0 +1,27 @@
+﻿$color-brand: #212121;
+
+$color-brand-highlight: lighten($color-brand, 15%);
+$color-brand-shadow:    darken($color-brand, 15%);
+$color-highlight:       rgba(255, 255, 255, 0.05);
+$color-shadow:          rgba(0, 0, 0, 0.05);
+
+// Alerts
+$color-warn-text: #a94442;
+$color-warn-bg: #f2dede;
+$color-warn-outline: #ebccd1;
+
+$color-ok-text: #3c763d;
+$color-ok-bg: #dff0d8;
+$color-ok-outline: #212121;
+
+$color-info-text: #31708f;
+$color-info-bg: #d9edf7;
+$color-info-outline: #bce8f1;
+
+// Links
+$color-link:        $color-brand;
+$color-link-hover:  $color-brand-shadow;
+
+// Buttons
+$color-btn:         $color-brand;
+$color-btn-hover:   $color-brand-shadow;

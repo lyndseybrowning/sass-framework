@@ -1,0 +1,26 @@
+@if ($use-alerts) {
+    .c-alert {
+      padding: $spacing-unit;
+      border-radius: 5px;
+      border-style: solid;
+      border-size: 1px;
+
+      &--ok {
+        color: $color-ok-text;
+        background-color: $color-ok-bg;
+        border-color: $color-ok-outline;
+      }
+
+      &--info {
+        color: $color-info-text;
+        background-color: $color-info-bg;
+        border-color: $color-info-outline;
+      }
+
+      &--warning {
+        color: $color-warn-text;
+        background-color: $color-warn-bg;
+        border-color: $color-warn-outline;
+      }
+    }
+}
