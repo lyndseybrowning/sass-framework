@@ -1,5 +1,5 @@
 ﻿@each $key, $value in $font-size-variants {
     .u-font-#{$key} * {
         font-size: $value;
-    }   
+    }
 }
