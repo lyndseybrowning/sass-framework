@@ -1,0 +1,9 @@
+﻿[
+    {
+        "outputFile": "dist/main.css",
+        "inputFile": "scss/main.scss",
+        "minify": {
+            "enabled": false
+        }
+    }
+]
