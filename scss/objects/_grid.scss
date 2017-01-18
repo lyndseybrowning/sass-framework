@@ -43,3 +43,7 @@
 .o-grid--equal-height > .o-grid__col {
     flex-direction: column;
 }
+
+.o-grid--equal-height > .o-grid__col > * {
+    height: 100%;
+}
